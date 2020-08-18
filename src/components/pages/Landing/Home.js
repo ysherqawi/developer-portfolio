@@ -1,8 +1,9 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
-import LandingImg from '../../assets/landing.gif';
+import LandingImg from '../../../assets/landing.gif';
 import Typewriter from 'typewriter-effect';
-import { HomeStyle } from '../styles/Home';
+import { HomeStyle } from '../../styles/Home/Home';
+import '../../styles/Home/Home.css';
 
 const Home = () => {
   return (

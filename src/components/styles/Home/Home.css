@@ -1,0 +1,10 @@
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.75rem !important;
+  }
+
+  img {
+    width: 375px;
+    height: 300px;
+  }
+}

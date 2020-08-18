@@ -1,5 +1,6 @@
 import React from 'react';
-import { FooterStyle } from '../styles/Footer';
+import { FooterStyle } from '../styles/Footer/Footer';
+import '../styles/Footer/Footer.css';
 
 const Footer = () => (
   <footer style={FooterStyle} class='pv4 ph3 ph5-ns tc'>
