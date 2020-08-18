@@ -1,9 +1,5 @@
 @media (max-width: 500px) {
-  footer {
-    font-size: 0.8rem !important;
-  }
-
-  .f5 {
-    font-size: 0.8rem !important ;
+  footer small {
+    font-size: 0.9rem !important;
   }
 }
