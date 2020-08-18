@@ -11,6 +11,7 @@ export const HomeStyle = {
   textStyle: {
     textAlign: 'center',
     fontSize: '3.5rem',
-    marginTop: '5rem',
+    paddingTop: '2rem',
+    marginTop: '3rem',
   },
 };

@@ -7,7 +7,7 @@ import '../../styles/Home/Home.css';
 
 const Home = () => {
   return (
-    <div id='home-page' className=' mw7 br3 pa2 mv2' style={HomeStyle.landing}>
+    <div id='home-page' className=' mw7 br3 pa3 mv2' style={HomeStyle.landing}>
       <div>
         <Animated
           animationIn='fadeInRight'
@@ -18,7 +18,7 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  `Hello,`,
+                  `Hello <i class="far fa-smile"/>`,
                   `I'm Yasser Sherqawi`,
                   `I'm a Web Developer`,
                 ],
