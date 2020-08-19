@@ -1,21 +1,38 @@
-@media (max-width: 800px) {
-  h1 {
-    font-size: 2.5rem !important;
-    padding-top: 2rem;
+@media (max-width: 1024px) {
+  .header-text {
+    margin-top: -7rem;
   }
-  img {
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 2.8rem !important;
+  }
+  .landing-img {
     width: 550px;
     height: 375px;
   }
 }
 
 @media (max-width: 500px) {
-  h1 {
+  .header-text {
     font-size: 2rem !important;
+    margin-top: -8rem;
   }
 
-  img {
+  .landing-img {
     width: 400px;
     height: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .header-text {
+    font-size: 1.5rem !important;
+    margin-top: -5rem;
+  }
+
+  .landing-img {
+    width: 280px;
+    height: 290px;
   }
 }

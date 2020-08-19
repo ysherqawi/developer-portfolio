@@ -26,7 +26,7 @@ const OtherSkills = () => (
       </div>
       <div style={SkillsStyle.cursor}>
         <span className='f5 db black link hover-orange pv1'>
-          <i class='fab fa-git' /> GIT
+          <i className='fab fa-git' /> GIT
         </span>
       </div>
     </article>

@@ -6,6 +6,7 @@ export const SkillsStyle = {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    alighnItems: 'center',
     margin: 'auto',
   },
 

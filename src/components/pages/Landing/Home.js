@@ -7,31 +7,30 @@ import '../../styles/Home/Home.css';
 
 const Home = () => {
   return (
-    <div id='home-page' className=' mw7 br3 pa3 mv2' style={HomeStyle.landing}>
-      <div>
-        <Animated
-          animationIn='fadeInRight'
-          isVisible={true}
-          animationInDelay={500}
-        >
-          <h1 style={HomeStyle.textStyle}>
-            <Typewriter
-              options={{
-                strings: [
-                  `Hello <i class="far fa-smile"/>`,
-                  `I'm Yasser Sherqawi`,
-                  `I'm a Web Developer`,
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
-        </Animated>
-        <Animated animationIn='shake'>
-          <img id='landing-img' src={LandingImg} alt='Developer Gif' />
-        </Animated>
-      </div>
+    <div className='mw8 br3' style={HomeStyle.landing}>
+      <Animated
+        animationIn='fadeInRightBig'
+        animationOut='zoomOutDown'
+        animationInDelay={500}
+      >
+        <h1 className='tc f1 header-text'>
+          <Typewriter
+            options={{
+              strings: [
+                `Hello <i class="far fa-grin"/>`,
+                `I'm Yasser Sherqawi`,
+                `I'm a Web Developer`,
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h1>
+      </Animated>
+
+      <Animated animationIn='shake' animationOut='zoomOutDown'>
+        <img className='landing-img' src={LandingImg} alt='Developer Gif' />
+      </Animated>
     </div>
   );
 };

@@ -26,23 +26,23 @@ const FrontSkills = () => (
       </div>
       <div style={SkillsStyle.cursor}>
         <span className='f5 db black link hover-orange pv1'>
-          <i class='fab fa-html5' /> HTML
+          <i className='fab fa-html5' /> HTML
         </span>
         <span className='f5 db black link hover-dark-blue pv1'>
-          <i class='fab fa-css3-alt' /> CSS
+          <i className='fab fa-css3-alt' /> CSS
         </span>
         <span className='f5 db black link hover-yellow pv1'>
-          <i class='fab fa-js-square' /> JavaScript (ES6)
+          <i className='fab fa-js-square' /> JavaScript (ES6)
         </span>
         <span className='f5 db black link hover-pink pv1'>
-          <i class='fab fa-sass' /> SASS
+          <i className='fab fa-sass' /> SASS
         </span>
         <span className='f5 db black link hover-purple pv1'>
-          <i class='fab fa-bootstrap' /> Bootstrap
+          <i className='fab fa-bootstrap' /> Bootstrap
         </span>
 
         <span className='f5 db black link hover-blue pv1'>
-          <i class='fab fa-react' /> React.js
+          <i className='fab fa-react' /> React.js
         </span>
       </div>
     </article>

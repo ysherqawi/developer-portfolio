@@ -8,10 +8,4 @@ export const HomeStyle = {
     height: '100vh',
     margin: 'auto',
   },
-  textStyle: {
-    textAlign: 'center',
-    fontSize: '3.5rem',
-    paddingTop: '2rem',
-    marginTop: '3rem',
-  },
 };

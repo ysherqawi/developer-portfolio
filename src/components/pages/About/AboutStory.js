@@ -3,13 +3,8 @@ import { Animated } from 'react-animated-css';
 
 const AboutStory = () => {
   return (
-    <article className='mw8 center pa4-ns mv3'>
-      <Animated
-        animationIn='fadeInDownBig'
-        animationOut='zoomOutDown'
-        isVisible={true}
-        animationInDelay={10}
-      >
+    <article className='mw8 center pa4-ns'>
+      <Animated animationIn='fadeInDownBig' animationOut='zoomOutDown'>
         <div>
           <h2>About Me</h2>
           <p>
@@ -56,7 +51,7 @@ const AboutStory = () => {
           </p>
         </div>
         <a
-          class='f6 grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-mid-gray'
+          class='f6 link dim grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-dark-gray'
           href='https://drive.google.com/file/d/1Fie_rtaAlraWcZsBTKmKQWYjyKqR6NrV/view?usp=sharing'
           download
           target='_blank'

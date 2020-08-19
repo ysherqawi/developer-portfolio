@@ -6,7 +6,7 @@ import defaultImg from '../../../assets/default.jpg';
 import '../../styles/Projects/Projects.css';
 
 const ProjectItem = ({ project }) => (
-  <Animated animationIn='zoomInUp'>
+  <Animated animationIn='fadeInUpBig' animationOut='zoomOutDown'>
     <article
       className='card br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center grow'
       style={ProjectsStyle.card}
@@ -15,13 +15,13 @@ const ProjectItem = ({ project }) => (
         <img
           src={defaultImg}
           className='db  w-100 br2 br--top project-img'
-          alt='project image'
+          alt='project pic'
         />
       ) : (
         <img
           src={project.image}
           className='db  w-100 br2 br--top project-img'
-          alt='project image'
+          alt='project pic'
         />
       )}
 
@@ -41,8 +41,8 @@ const ProjectItem = ({ project }) => (
       <div style={ProjectsStyle.linkGroup}>
         {project.live.length > 0 && (
           <a
-            className='f6 grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
-            href='#0'
+            className='f6 link dim grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
+            href='https://www.google.com/'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -50,7 +50,7 @@ const ProjectItem = ({ project }) => (
           </a>
         )}
         <a
-          className='f6 grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
+          className='f6 link dim grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
           href='https://www.github.com'
           target='_blank'
           rel='noopener noreferrer'

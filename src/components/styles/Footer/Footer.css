@@ -3,3 +3,9 @@
     font-size: 0.9rem !important;
   }
 }
+
+@media (max-width: 320px) {
+  footer small {
+    font-size: 0.7rem !important;
+  }
+}

@@ -1,6 +1,6 @@
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .layout {
-    flex-direction: column;
+    flex-direction: row;
   }
   .project-img {
     height: 70% !important;
@@ -13,12 +13,19 @@
   }
   .card {
     min-height: 250px !important;
-    min-width: 350px !important;
+    min-width: 325px !important;
   }
   .heading {
     font-size: 0.8rem !important;
   }
   .desc {
     font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    min-height: 225px !important;
+    min-width: 270px !important;
   }
 }

@@ -22,10 +22,10 @@ const BackSkills = () => (
       </div>
       <div style={SkillsStyle.cursor}>
         <span className='f5 db black link hover-dark-green pv1'>
-          <i class='fab fa-node-js' /> Node.js
+          <i className='fab fa-node-js' /> Node.js
         </span>
         <span className='f5 db black link hover-green pv1'>
-          <i class='fas fa-database' /> MongoDB
+          <i className='fas fa-database' /> MongoDB
         </span>
       </div>
     </article>

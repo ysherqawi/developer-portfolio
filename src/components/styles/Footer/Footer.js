@@ -8,5 +8,6 @@ export const FooterStyle = {
   logo: {
     width: '35px',
     height: '35px',
+    marginRight: '5px',
   },
 };

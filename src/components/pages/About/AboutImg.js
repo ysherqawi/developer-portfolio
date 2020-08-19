@@ -5,12 +5,7 @@ import { AboutStyle } from './../../styles/About/About';
 
 const AboutImg = () => {
   return (
-    <Animated
-      animationIn='fadeInLeftBig'
-      animationOut='zoomOutDown'
-      isVisible={true}
-      animationInDelay={10}
-    >
+    <Animated animationIn='fadeInLeftBig' animationOut='zoomOutDown'>
       <div className='about'>
         <div className='aboutImg'>
           <img src={AboutImage} style={AboutStyle.img} alt='Developer Waving' />
@@ -24,11 +19,14 @@ const AboutImg = () => {
             style={{ marginTop: '-15px' }}
           ></hr>
           <div style={AboutStyle.center}>
-            <a class='link dim black h2 w2 mr2 ' href='#'>
-              <i class='fab fa-linkedin fa-2x' />
+            <a
+              className='link dim black h2 w2 mr2'
+              href='https://www.linkedin.com/'
+            >
+              <i className='fab fa-linkedin fa-2x grow' />
             </a>
-            <a class='link dim black  h2 w2' href='#'>
-              <i class='fab fa-github fa-2x' />
+            <a className='link dim black  h2 w2' href='https://github.com/'>
+              <i className='fab fa-github fa-2x grow' />
             </a>
           </div>
         </div>
