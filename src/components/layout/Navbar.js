@@ -5,10 +5,7 @@ import { NavbarStyle } from '../styles/Navbar/Navbar.js';
 
 const Navbar = () => {
   return (
-    <nav
-      className='db dt-l w-100  pa3 ph5-l fixed'
-      style={NavbarStyle.navColor}
-    >
+    <nav className='db dt-l w-100 pa3 ph5-l' style={NavbarStyle.navColor}>
       <Link
         className='db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb3 mb0-l'
         to='/'

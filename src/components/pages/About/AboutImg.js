@@ -24,7 +24,7 @@ const AboutImg = () => {
             style={{ marginTop: '-15px' }}
           ></hr>
           <div style={AboutStyle.center}>
-            <a class='link dim black h2 w2 ' href='#'>
+            <a class='link dim black h2 w2 mr2 ' href='#'>
               <i class='fab fa-linkedin fa-2x' />
             </a>
             <a class='link dim black  h2 w2' href='#'>

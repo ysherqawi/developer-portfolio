@@ -3,7 +3,7 @@ import { Animated } from 'react-animated-css';
 
 const AboutStory = () => {
   return (
-    <article className='mw8 center pa4 pa4-ns mv3'>
+    <article className='mw8 center pa4-ns mv3'>
       <Animated
         animationIn='fadeInDownBig'
         animationOut='zoomOutDown'
