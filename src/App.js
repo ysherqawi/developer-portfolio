@@ -6,18 +6,20 @@ import Home from './components/pages/Landing/Home';
 import Footer from './components/layout/Footer';
 import About from './components/pages/About/About';
 import Skills from './components/pages/Skills/Skills';
+import Projects from './components/pages/Projects/Projects';
 
 const App = () => (
   <BrowserRouter>
-    <div className='App'>
+    <>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/skills' exact component={Skills} />
+        <Route path='/projects' exact component={Projects} />
       </Switch>
       <Footer />
-    </div>
+    </>
   </BrowserRouter>
 );
 

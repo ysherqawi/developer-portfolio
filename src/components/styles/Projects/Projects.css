@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+  .layout {
+    flex-direction: column;
+  }
+  .project-img {
+    height: 70% !important;
+  }
+}
+@media (max-width: 500px) {
+  .layout {
+    flex-direction: column;
+    margin: 'auto';
+  }
+  .card {
+    min-height: 250px !important;
+    min-width: 350px !important;
+  }
+  .heading {
+    font-size: 0.8rem !important;
+  }
+  .desc {
+    font-size: 0.7rem !important;
+  }
+}
