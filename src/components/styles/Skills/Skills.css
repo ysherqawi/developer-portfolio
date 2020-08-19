@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+  .skills {
+    flex-direction: column;
+  }
+
+  .skills-img {
+    display: none;
+  }
+}
