@@ -44,14 +44,14 @@ const AboutStory = () => {
           ></hr>
           <h2>Education </h2>
           <p>
-            <i class='fas fa-graduation-cap' /> Lorem ipsum dolor sit amet.
+            <i className='fas fa-graduation-cap' /> Lorem ipsum dolor sit amet.
           </p>
           <p>
-            <i class='fas fa-graduation-cap' /> Lorem ipsum dolor sit amet.
+            <i className='fas fa-graduation-cap' /> Lorem ipsum dolor sit amet.
           </p>
         </div>
         <a
-          class='f6 link dim grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-dark-gray'
+          className='f6 link dim grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-dark-gray'
           href='https://drive.google.com/file/d/1Fie_rtaAlraWcZsBTKmKQWYjyKqR6NrV/view?usp=sharing'
           download
           target='_blank'

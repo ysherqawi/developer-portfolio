@@ -7,7 +7,7 @@ import { Animated } from 'react-animated-css';
 import '../../styles/Skills/Skills.css';
 const Skills = () => {
   return (
-    <div className='pt2'>
+    <div className='pt2 mt2'>
       <Animated
         animationIn='fadeInDownBig'
         animationOut='zoomOutDown'
@@ -15,7 +15,7 @@ const Skills = () => {
         animationInDelay={10}
       >
         <article
-          className='bg-white br3 mt3-ns center w-80 skills-img'
+          className='bg-white br3 mt4-ns center w-80 skills-img'
           style={SkillsStyle.backgroundimg}
         ></article>
       </Animated>

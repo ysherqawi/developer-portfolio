@@ -4,7 +4,7 @@ export const NotFoundStyle = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: '1rem',
+    marginTop: '32px',
   },
   img: {
     height: '100%',

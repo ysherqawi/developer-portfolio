@@ -4,10 +4,10 @@ import ProjectItem from './ProjectItem';
 import { ProjectsStyle } from './../../styles/Projects/Projects';
 import '../../styles/Projects/Projects.css';
 
-export const Projects = () => (
+const Projects = () => (
   <div className='layout mt4' style={ProjectsStyle.layout}>
     {projects.map((project) => (
-      <ProjectItem project={project} />
+      <ProjectItem project={project} id={project.name} />
     ))}
   </div>
 );
