@@ -25,8 +25,14 @@ const AboutImg = () => {
             >
               <i className='fab fa-linkedin fa-2x grow' />
             </a>
-            <a className='link dim black  h2 w2' href='https://github.com/'>
+            <a className='link dim black h2 w2 mr2' href='https://github.com/'>
               <i className='fab fa-github fa-2x grow' />
+            </a>
+            <a
+              className='link dim black h2 w2'
+              href='mailto:ysherqawi@gmail.com'
+            >
+              <i className='fab fa-google fa-2x grow' />
             </a>
           </div>
         </div>

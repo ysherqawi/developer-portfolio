@@ -5,7 +5,7 @@ import { ProjectsStyle } from './../../styles/Projects/Projects';
 import '../../styles/Projects/Projects.css';
 
 export const Projects = () => (
-  <div className='layout' style={ProjectsStyle.layout}>
+  <div className='layout mt4' style={ProjectsStyle.layout}>
     {projects.map((project) => (
       <ProjectItem project={project} />
     ))}

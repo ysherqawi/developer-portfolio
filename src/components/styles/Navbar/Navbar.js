@@ -1,6 +1,6 @@
 export const NavbarStyle = {
-  position: 'sticky',
-  top: 0,
-  left: 0,
-  zIndex: 1,
+  logo: {
+    height: '30%',
+    width: '70%',
+  },
 };
