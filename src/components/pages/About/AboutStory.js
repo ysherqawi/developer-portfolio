@@ -3,7 +3,7 @@ import { Animated } from 'react-animated-css';
 
 const AboutStory = () => {
   return (
-    <article className='mw8 center pa4-ns'>
+    <article className='mw7 center pa4-ns'>
       <Animated animationIn='fadeInDownBig' animationOut='zoomOutDown'>
         <div>
           <h2>About Me</h2>

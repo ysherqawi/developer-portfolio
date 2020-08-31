@@ -6,8 +6,8 @@ import { AboutStyle } from './../../styles/About/About';
 const AboutImg = () => {
   return (
     <Animated animationIn='fadeInLeftBig' animationOut='zoomOutDown'>
-      <div className='about'>
-        <div className='aboutImg'>
+      <div className='aboutImg'>
+        <div>
           <img src={AboutImage} style={AboutStyle.img} alt='Developer Waving' />
         </div>
         <div className='pa1 social'>
@@ -22,10 +22,17 @@ const AboutImg = () => {
             <a
               className='link dim black h2 w2 mr2'
               href='https://www.linkedin.com/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <i className='fab fa-linkedin fa-2x grow' />
             </a>
-            <a className='link dim black h2 w2 mr2' href='https://github.com/'>
+            <a
+              className='link dim black h2 w2 mr2'
+              href='https://github.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <i className='fab fa-github fa-2x grow' />
             </a>
             <a

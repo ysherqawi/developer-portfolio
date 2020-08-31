@@ -5,6 +5,7 @@ export const AboutStyle = {
   },
   img: {
     marginTop: '3.4rem',
+    borderRadius: '50%',
   },
   center: {
     textAlign: 'center',
