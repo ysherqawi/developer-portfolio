@@ -7,7 +7,7 @@ import '../../styles/Projects/Projects.css';
 const Projects = () => (
   <div className='layout mt4' style={ProjectsStyle.layout}>
     {projects.map((project) => (
-      <ProjectItem project={project} id={project.name} />
+      <ProjectItem project={project} key={project.name} />
     ))}
   </div>
 );
