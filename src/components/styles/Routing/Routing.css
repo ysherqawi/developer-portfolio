@@ -1,0 +1,36 @@
+.wrapper {
+  min-height: 80vh;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 850px) {
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    min-height: 83vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .wrapper {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .wrapper {
+    min-height: 77vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    min-height: 75vh;
+  }
+}

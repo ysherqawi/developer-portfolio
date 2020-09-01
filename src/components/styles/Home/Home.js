@@ -6,4 +6,5 @@ export const HomeStyle = {
     alignItems: 'center',
     margin: 'auto',
   },
+  LandingImg: { marginTop: '-20px', marginBottom: '-25px' },
 };

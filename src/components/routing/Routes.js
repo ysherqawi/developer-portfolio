@@ -5,10 +5,11 @@ import Skills from './../pages/Skills/Skills';
 import Projects from './../pages/Projects/Projects';
 import NotFound from './../layout/NotFound';
 import Home from './../pages/Landing/Home';
+import '../styles/Routing/Routing.css';
 
 const Routes = () => {
   return (
-    <div style={{ minHeight: '100vh' }}>
+    <div className='wrapper'>
       <Switch>
         <Route path='/about' exact component={About} />
         <Route path='/skills' exact component={Skills} />

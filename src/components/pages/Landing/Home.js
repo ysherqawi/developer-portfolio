@@ -28,7 +28,12 @@ const Home = () => (
     </Animated>
 
     <Animated animationIn='shake' animationOut='zoomOutDown'>
-      <img className='landing-img' src={LandingImg} alt='Developer Gif' />
+      <img
+        className='landing-img'
+        style={HomeStyle.LandingImg}
+        src={LandingImg}
+        alt='Developer Gif'
+      />
     </Animated>
   </div>
 );

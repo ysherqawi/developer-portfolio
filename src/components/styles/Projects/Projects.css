@@ -13,7 +13,7 @@
   }
   .card {
     min-height: 250px !important;
-    min-width: 325px !important;
+    min-width: 300px !important;
   }
   .heading {
     font-size: 0.8rem !important;
@@ -26,6 +26,6 @@
 @media (max-width: 320px) {
   .card {
     min-height: 225px !important;
-    min-width: 270px !important;
+    min-width: 250px !important;
   }
 }
