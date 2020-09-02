@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ProjectsStyle } from './../../styles/Projects/Projects';
 import { Animated } from 'react-animated-css';
-import defaultImg from '../../../assets/default.jpg';
 import '../../styles/Projects/Projects.css';
+import { defaultProjectImg } from './../../../assets/imgUrl';
 
 const ProjectItem = ({ project }) => (
   <Animated animationIn='fadeInUpBig' animationOut='zoomOutDown'>
@@ -13,7 +13,7 @@ const ProjectItem = ({ project }) => (
     >
       {!project.image ? (
         <img
-          src={defaultImg}
+          src={defaultProjectImg}
           className='db  w-100 br2 br--top project-img'
           alt='project pic'
         />

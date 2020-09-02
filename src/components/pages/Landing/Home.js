@@ -1,9 +1,9 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
-import LandingImg from '../../../assets/landing.gif';
 import Typewriter from 'typewriter-effect';
 import { HomeStyle } from '../../styles/Home/Home';
 import '../../styles/Home/Home.css';
+import { homePageImg } from '../../../assets/imgUrl';
 
 const Home = () => (
   <div className='mw8 br3 pt3' style={HomeStyle.landing}>
@@ -31,7 +31,7 @@ const Home = () => (
       <img
         className='landing-img'
         style={HomeStyle.LandingImg}
-        src={LandingImg}
+        src={homePageImg}
         alt='Developer Gif'
       />
     </Animated>

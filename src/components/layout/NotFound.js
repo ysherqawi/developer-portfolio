@@ -1,11 +1,11 @@
 import React from 'react';
-import Image404 from '../../assets/404.gif';
 import { NotFoundStyle } from './../styles/NotFound/NotFound';
+import { notFoundImg } from '../../assets/imgUrl';
 
 const NotFound = () => {
   return (
     <div style={NotFoundStyle.layout}>
-      <img style={NotFoundStyle.img} src={Image404} alt='not found' />
+      <img style={NotFoundStyle.img} src={notFoundImg} alt='not found' />
     </div>
   );
 };

@@ -1,14 +1,16 @@
-import project1 from '../assets/project-1.jpg';
-import project2 from '../assets/project-2.jpg';
-import project3 from '../assets/project-3.jpg';
-import project4 from '../assets/project-4.jpg';
+import {
+  devCamperImg,
+  devConnectorImg,
+  ecommerceImg,
+  movieAppImg,
+} from '../assets/imgUrl';
 
 const projectsData = [
   {
     name: 'Devcamper Api',
     type: 'Backend project',
     tech: 'Nodejs, Express, Mongodb',
-    image: project1,
+    image: devCamperImg,
     description: 'Backend API for a bootcamp directory website',
     live: '',
     github: 'https://github.com/',
@@ -17,7 +19,7 @@ const projectsData = [
     name: 'DevConnector',
     type: 'Fullstack project',
     tech: 'Nodejs, Express, Mongodb, React, Redux',
-    image: project2,
+    image: devConnectorImg,
     description: 'Social network for developers, built on the MERN stack',
     live: '',
     github: 'https://github.com/',
@@ -26,7 +28,7 @@ const projectsData = [
     name: 'MovieApp',
     type: 'Frontend project',
     tech: 'React, Hooks, The Movie Database Api',
-    image: project3,
+    image: movieAppImg,
     description: 'Search and View Movies Using The Movie Database Api',
     live: '',
     github: 'https://github.com/',
@@ -35,7 +37,7 @@ const projectsData = [
     name: 'Ecommerce Api',
     type: 'Backend project',
     tech: 'Nodejs, Express, Mongodb',
-    image: project4,
+    image: ecommerceImg,
     description: 'Backend API for Ecommerce application',
     live: '',
     github: 'https://github.com/',

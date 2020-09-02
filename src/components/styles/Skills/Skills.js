@@ -1,4 +1,4 @@
-import SkillsImage from '../../../assets/skills.gif';
+import { skillsPageImg } from '../../../assets/imgUrl';
 
 export const SkillsStyle = {
   layout: {
@@ -11,7 +11,7 @@ export const SkillsStyle = {
   },
 
   backgroundimg: {
-    backgroundImage: `url(${SkillsImage})`,
+    backgroundImage: `url(${skillsPageImg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '200px',
