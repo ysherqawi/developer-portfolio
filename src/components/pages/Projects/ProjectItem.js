@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ProjectsStyle } from './../../styles/Projects/Projects';
-import { Animated } from 'react-animated-css';
 import '../../styles/Projects/Projects.css';
 import { defaultProjectImg } from './../../../assets/imgUrl';
 
 const ProjectItem = ({ project }) => (
-  <Animated animationIn='fadeInUpBig' animationOut='zoomOutDown'>
+  <div>
     <article
       className='card br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center grow'
       style={ProjectsStyle.card}
@@ -59,7 +58,7 @@ const ProjectItem = ({ project }) => (
         </a>
       </div>
     </article>
-  </Animated>
+  </div>
 );
 
 ProjectItem.propTypes = {

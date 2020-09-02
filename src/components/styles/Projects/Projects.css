@@ -3,7 +3,12 @@
     flex-direction: row;
   }
   .project-img {
-    height: 70% !important;
+    height: 100% !important;
+  }
+
+  .card {
+    min-height: 400px !important;
+    min-width: 500px !important;
   }
 }
 @media (max-width: 500px) {
@@ -13,7 +18,7 @@
   }
   .card {
     min-height: 250px !important;
-    min-width: 300px !important;
+    min-width: 325px !important;
   }
   .heading {
     font-size: 0.8rem !important;
@@ -26,6 +31,6 @@
 @media (max-width: 320px) {
   .card {
     min-height: 225px !important;
-    min-width: 250px !important;
+    min-width: 275px !important;
   }
 }
