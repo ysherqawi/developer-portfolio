@@ -10,7 +10,7 @@ const OtherSkills = () => (
     isVisible={true}
   >
     <article
-      className='mw5 mh2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
+      className='mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
       style={SkillsStyle.card}
     >
       <div className='tc'>
