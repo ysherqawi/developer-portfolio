@@ -14,12 +14,13 @@ export const SkillsStyle = {
     backgroundImage: `url(${skillsPageImg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '200px',
-    width: '512px',
+    height: '175px',
+    width: '450px',
   },
   card: {
-    minHeight: '300px',
-    minWidth: '260px',
+    minHeight: '295px',
+    minWidth: '250px',
+    marginBottom: '0',
   },
   icon: {
     width: '25px',
