@@ -1,7 +1,6 @@
 //Pages
 const homePageImg =
-  'https://lh3.googleusercontent.com/lq5M96LkrE488Rpvy4pBrLrx5z-lTgS4QvNDUkUNYI1bQHWKhMFT7k2XoJXO47PNfoTm99f45pZ_kv_KgVQXY9SRK0y721mKYAPKilwkuo0Ph9nO0L_bWp-hbMMuBFyXn7uZ9kiY=w2400';
-
+  'https://lh3.googleusercontent.com/A1ZLOsJEGGv3K7gbSoYRzCY1sOcrOmGh952o28nZo485e5Ti73ZEwpgJopT1SSTNnpoeIh1eFpurBpioyLZo_hdcNQV9I-kuvSaMDRSnevbfX5s9Unik80PTwrNlCK1GUwQbEz6H=w2400';
 const aboutPageImg =
   'https://lh3.googleusercontent.com/9H4gHLqfRVXmQ98j8QvxrWPHT4Gi3BIw97IZKf9WzT1QxCMUH_1sn671fk5Xak_ZWmZeuqgRukTn9gVTriHGEzseB9flY3NqM2E9t8udRUxhyoyLQvgRsggf4PEVcrjkkNfa7dsC=w2400';
 

@@ -8,18 +8,26 @@
   }
 }
 
-@media (max-width: 850px) {
-}
-
 @media (max-width: 768px) {
   .wrapper {
-    min-height: 83vh;
+    min-height: 85vh;
   }
 }
 
+@media (max-width: 540px) {
+  .wrapper {
+    min-height: 79vh;
+  }
+}
 @media (max-width: 420px) {
   .wrapper {
     min-height: 80vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    min-height: 83vh;
   }
 }
 

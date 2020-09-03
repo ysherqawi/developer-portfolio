@@ -12,7 +12,7 @@ const Home = () => (
       animationOut='zoomOutDown'
       animationInDelay={500}
     >
-      <h1 className='tc f1 header-text'>
+      <h1 className='tc f1 mb4 header-text'>
         <Typewriter
           options={{
             strings: [
