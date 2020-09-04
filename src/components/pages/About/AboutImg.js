@@ -15,17 +15,12 @@ const AboutImg = () => {
           />
         </div>
         <div className='pa1 social'>
-          <h2 className='animated pulse infinite ' style={AboutStyle.center}>
-            Get in Touch
-          </h2>
-          <hr
-            className='mw3 bb bw1 b--black-10'
-            style={{ marginTop: '-15px' }}
-          ></hr>
-          <div style={AboutStyle.center}>
+          <h2 className='animated pulse infinite tc '>Get in Touch</h2>
+          <hr className='mw3 bb bw1 b--black-10' style={AboutStyle.hr}></hr>
+          <div className='tc'>
             <a
               className='link dim black h2 w2 mr2'
-              href='https://www.linkedin.com/'
+              href='https://linkedin.com/in/yassersherqawi'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -33,7 +28,7 @@ const AboutImg = () => {
             </a>
             <a
               className='link dim black h2 w2 mr2'
-              href='https://github.com/'
+              href='https://github.com/ysherqawi'
               target='_blank'
               rel='noopener noreferrer'
             >
