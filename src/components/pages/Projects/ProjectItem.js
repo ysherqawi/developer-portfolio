@@ -40,8 +40,8 @@ const ProjectItem = ({ project }) => (
       <div style={ProjectsStyle.linkGroup}>
         {project.live.length > 0 && (
           <a
-            className='f6 link dim grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
-            href='https://www.google.com/'
+            className='f6 link dim  no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
+            href={project.live}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -49,8 +49,8 @@ const ProjectItem = ({ project }) => (
           </a>
         )}
         <a
-          className='f6 link dim grow no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
-          href='https://www.github.com'
+          className='f6 link dim  no-underline br-pill ph2 pv2 mb2 ml1 dib white bg-black center'
+          href={project.github}
           target='_blank'
           rel='noopener noreferrer'
         >
