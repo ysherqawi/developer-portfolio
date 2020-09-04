@@ -44,8 +44,7 @@ const AboutStory = () => {
         </div>
         <a
           className='f6 link dim grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-dark-gray'
-          href='https://drive.google.com/file/d/1a-Mffa_DfKmt5-bnqbXX8lv3ch9tXcjv/view?usp=sharing'
-          download
+          href='https://drive.google.com/file/d/1ipPvNmfj3Whn1wrEZckOBXMqLd0-LwN3/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
         >
