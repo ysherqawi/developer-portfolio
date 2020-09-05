@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Headroom from 'react-headroom';
 import Logo from '../../assets/signture.svg';
-import { NavbarStyle } from './../styles/Navbar/Navbar';
 import './../styles/Navbar/Navbar.css';
 
 const Navbar = () => (
@@ -13,12 +12,7 @@ const Navbar = () => (
         to='/'
         title='Home'
       >
-        <img
-          src={Logo}
-          className='dib logo'
-          alt='logo'
-          style={NavbarStyle.logo}
-        />
+        <img src={Logo} className='dib navbar-logo' alt='logo' />
       </Link>
       <div className='db dtc-l v-mid w-100 w-75-l tc tr-l'>
         <Link
