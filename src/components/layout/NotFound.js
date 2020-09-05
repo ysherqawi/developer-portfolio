@@ -1,11 +1,11 @@
 import React from 'react';
-import { NotFoundStyle } from './../styles/NotFound/NotFound';
 import { notFoundImg } from '../../assets/imgUrl';
+import '../styles/NotFound/NotFound.css';
 
 const NotFound = () => {
   return (
-    <div style={NotFoundStyle.layout}>
-      <img style={NotFoundStyle.img} src={notFoundImg} alt='not found' />
+    <div className='notfound-layout'>
+      <img className='notfound-img' src={notFoundImg} alt='not found' />
     </div>
   );
 };
