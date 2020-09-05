@@ -1,11 +1,27 @@
+.footer-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
 @media (max-width: 500px) {
   footer small {
     font-size: 0.9rem !important;
+  }
+  .footer-logo {
+    width: 28px;
+    height: 28px;
   }
 }
 
 @media (max-width: 320px) {
   footer small {
-    font-size: 0.7rem !important;
+    font-size: 0.75rem !important;
   }
 }

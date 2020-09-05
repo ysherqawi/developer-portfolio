@@ -1,15 +1,17 @@
 import React from 'react';
-import { FooterStyle } from '../styles/Footer/Footer';
-import '../styles/Footer/Footer.css';
 import FooterLogo from '../../assets/footer.png';
+import '../styles/Footer/Footer.css';
+import { getToday } from './../../utils/date';
 
 const Footer = () => (
-  <footer style={FooterStyle.footer} className='pt2 ph3 ph5-ns mt2 tc'>
+  <footer className='footer-layout pt2 ph3 ph5-ns mt2 tc'>
     <small className='f5 db mb1 tc'>
-      Copyright © 2020. All Rights Reserved
+      {' '}
+      Happy {getToday()}! Wear a <i class='fas fa-head-side-mask' />. Save
+      Lives.
     </small>
 
-    <img src={FooterLogo} alt='logo' style={FooterStyle.logo} />
+    <img src={FooterLogo} alt='logo' className='footer-logo' />
   </footer>
 );
 
