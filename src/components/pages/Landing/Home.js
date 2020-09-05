@@ -1,12 +1,11 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
 import Typewriter from 'typewriter-effect';
-import { HomeStyle } from '../../styles/Home/Home';
-import '../../styles/Home/Home.css';
 import { homePageImg } from '../../../assets/imgUrl';
+import '../../styles/Home/Home.css';
 
 const Home = () => (
-  <div className='mw8 br3 pt3' style={HomeStyle.landing}>
+  <div className='mw8 br3 pt3 home-layout'>
     <Animated
       animationIn='fadeInRightBig'
       animationOut='zoomOutDown'
@@ -27,13 +26,12 @@ const Home = () => (
       </h1>
     </Animated>
 
-    <Animated animationIn='shake' animationOut='zoomOutDown'>
-      <img
-        className='landing-img'
-        style={HomeStyle.LandingImg}
-        src={homePageImg}
-        alt='Developer Gif'
-      />
+    <Animated
+      animationIn='shake'
+      animationOut='zoomOutDown'
+      animationInDelay={1400}
+    >
+      <img className='landing-img' src={homePageImg} alt='Developer Gif' />
     </Animated>
   </div>
 );

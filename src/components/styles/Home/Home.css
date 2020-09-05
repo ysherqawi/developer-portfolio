@@ -1,3 +1,16 @@
+.home-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.landing-img {
+  margin-top: -20px;
+  margin-bottom: -25px;
+}
+
 @media (max-width: 1024px) {
   .header-text {
     margin-top: 150px;
