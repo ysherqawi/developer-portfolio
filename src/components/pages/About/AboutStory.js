@@ -1,12 +1,15 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
-import { getToday } from './../../../utils/date';
-import { AboutStyle } from './../../styles/About/About';
+import '../../styles/About/About.css';
 
 const AboutStory = () => {
   return (
-    <article className='mw7 center pa3-ns'>
-      <Animated animationIn='fadeInDownBig' animationOut='zoomOutDown'>
+    <article className='mw7 center pa4-ns'>
+      <Animated
+        animationIn='fadeInDownBig'
+        animationOut='zoomOutDown'
+        animationInDelay={500}
+      >
         <div>
           <h2>About Me</h2>
           <p>
@@ -25,13 +28,9 @@ const AboutStory = () => {
             I am available for any kind of job opportunity that suits my
             interests. Feel free to contact me via email at any time.
           </p>
-          <h4 style={AboutStyle.h4}>
-            Happy {getToday()}! Wear a <i class='fas fa-head-side-mask' />. Save
-            Lives.
-          </h4>
         </div>
         <div>
-          <hr className='mw6 bb bw1 b--black-10' style={AboutStyle.hr2}></hr>
+          <hr className='mw6 bb bw1 b--black-10 about-hr2'></hr>
           <h2>Education </h2>
           <p>
             <i className='fas fa-graduation-cap' /> Master's in Web Science -

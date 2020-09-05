@@ -1,22 +1,25 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
-import { AboutStyle } from './../../styles/About/About';
 import { aboutPageImg } from '../../../assets/imgUrl';
 
 const AboutImg = () => {
   return (
-    <Animated animationIn='fadeInLeftBig' animationOut='zoomOutDown'>
-      <div className='aboutImg'>
+    <Animated
+      animationIn='fadeInLeftBig'
+      animationOut='zoomOutDown'
+      animationInDelay={500}
+    >
+      <div className='aboutImg-layout'>
         <div>
           <img
             src={aboutPageImg}
-            style={AboutStyle.img}
+            className='about-img'
             alt='Developer Waving'
           />
         </div>
         <div className='pa1 social'>
           <h2 className='animated pulse infinite tc '>Get in Touch</h2>
-          <hr className='mw3 bb bw1 b--black-10' style={AboutStyle.hr}></hr>
+          <hr className='mw3 bb bw1 b--black-10 about-hr'></hr>
           <div className='tc'>
             <a
               className='link dim black h2 w2 mr2'
