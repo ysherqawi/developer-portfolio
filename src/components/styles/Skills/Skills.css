@@ -1,14 +1,46 @@
-@media (max-width: 700px) {
-  .skills {
+.skills-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-img {
+  background-image: url('../../../assets/img/skills.gif');
+  background-size: cover;
+  background-position: center;
+  height: 175px;
+  width: 450px;
+}
+
+.skills-card {
+  min-height: 295px;
+  min-width: 250px;
+  margin-bottom: 0;
+}
+
+.skills-icon {
+  width: 25px;
+  height: 25px;
+}
+cursor {
+  cursor: pointer;
+}
+
+.postman-icon {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 768px) {
+  .skills-layout {
     flex-direction: column !important;
-    align-content: center !important;
+    align-items: center !important;
+    justify-content: 'center' !important;
   }
 }
-@media (max-width: 500px) {
-  .skills {
-    flex-direction: column !important;
-  }
 
+@media (max-width: 500px) {
   .skills-img {
     display: none !important;
   }

@@ -1,30 +1,28 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
 import otherIcon from '../../../assets/other.png';
-import { SkillsStyle } from './../../styles/Skills/Skills';
 import postman from '../../../assets/postman.svg';
+import '../../styles/Skills/Skills.css';
+
 const OtherSkills = () => (
   <Animated
     animationIn='fadeInRightBig'
     animationOut='zoomOutDown'
-    isVisible={true}
+    animationInDelay={500}
   >
-    <article
-      className='mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
-      style={SkillsStyle.card}
-    >
+    <article className='skills-card mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
       <div className='tc'>
         <h3>
           <img
             src={otherIcon}
-            style={SkillsStyle.icon}
+            className='skills-icon'
             alt='other skills logo'
           />{' '}
           Other
         </h3>
         <hr className='mw3 bb bw1 b--black-10' />
       </div>
-      <div style={SkillsStyle.cursor}>
+      <div className='cursor'>
         <span className='f5 db black link hover-orange pv1'>
           <i className='fab fa-git' /> GIT
         </span>
@@ -32,12 +30,7 @@ const OtherSkills = () => (
           <i class='fab fa-npm' /> NPM
         </span>
         <span className='f5 db black link hover-gray pv1'>
-          <img
-            src={postman}
-            alt='postman'
-            style={{ width: '15px', height: '15px' }}
-          />{' '}
-          Postman
+          <img src={postman} alt='postman' className='postman-icon' /> Postman
         </span>
       </div>
     </article>

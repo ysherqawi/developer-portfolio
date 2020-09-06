@@ -1,30 +1,27 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
 import frontIcon from '../../../assets/frontend.png';
-import { SkillsStyle } from './../../styles/Skills/Skills';
+import '../../styles/Skills/Skills.css';
 
 const FrontSkills = () => (
   <Animated
     animationIn='fadeInLeftBig'
     animationOut='zoomOutDown'
-    isVisible={true}
+    animationInDelay={500}
   >
-    <article
-      className='mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
-      style={SkillsStyle.card}
-    >
+    <article className='skills-card mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
       <div className='tc'>
         <h3>
           <img
             src={frontIcon}
-            style={SkillsStyle.icon}
+            className='skills-icon'
             alt='front-end space logo'
           />{' '}
           Frontend
         </h3>
         <hr className='mw3 bb bw1 b--black-10' />
       </div>
-      <div style={SkillsStyle.cursor}>
+      <div className='cursor'>
         <span className='f5 db black link hover-orange pv1'>
           <i className='fab fa-html5' /> HTML
         </span>

@@ -1,26 +1,25 @@
 import React from 'react';
 import { Animated } from 'react-animated-css';
 import backIcon from '../../../assets/backend.png';
-import { SkillsStyle } from './../../styles/Skills/Skills';
+import '../../styles/Skills/Skills.css';
 
 const BackSkills = () => (
   <Animated
     animationIn='fadeInUpBig'
     animationOut='zoomOutDown'
-    isVisible={true}
+    animationInDelay={500}
   >
     <article
-      className='mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
-      style={SkillsStyle.card}
+      className='skills-card 
+        mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'
     >
       <div className='tc'>
         <h3>
-          <img src={backIcon} style={SkillsStyle.icon} alt='backend logo' />{' '}
-          Backend
+          <img src={backIcon} class='skills-icon' alt='backend logo' /> Backend
         </h3>
         <hr className='mw3 bb bw1 b--black-10' />
       </div>
-      <div style={SkillsStyle.cursor}>
+      <div className='cursor'>
         <span className='f5 db black link hover-dark-green pv1'>
           <i class='fab fa-node' /> Node.js
         </span>
