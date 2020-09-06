@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: 100%;
+  min-height: 80vh;
 }
 
 @media (max-width: 1024px) {
@@ -16,18 +16,12 @@
 
 @media (max-width: 540px) {
   .wrapper {
-    min-height: 79vh;
+    min-height: 77vh;
   }
 }
 @media (max-width: 420px) {
   .wrapper {
     min-height: 80vh;
-  }
-}
-
-@media (max-width: 375px) {
-  .wrapper {
-    min-height: 83vh;
   }
 }
 
@@ -39,6 +33,6 @@
 
 @media (max-width: 320px) {
   .wrapper {
-    min-height: 75vh;
+    min-height: 73vh;
   }
 }
