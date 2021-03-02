@@ -6,7 +6,7 @@ import './../styles/Navbar/Navbar.css';
 
 const Navbar = () => (
   <Headroom>
-    <nav className='db dt-l w-100 pa2 ph5-l bg-white'>
+    <nav className='db dt-l pa2 w-100 ph5-l bg-white'>
       <Link
         className='db dtc-l v-mid w-100 w-25-l tc tl-l mb3 mb0-l'
         to='/'
