@@ -7,6 +7,8 @@ import skillsPageImg from '../assets/img/skills.gif';
 
 import notFoundImg from '../assets/img/notfound.gif';
 
+import SpinnerImg from './spinner.gif';
+
 //Projects
 import defaultProjectImg from '../assets/img/default-project.jpg';
 
@@ -14,24 +16,25 @@ import devConnectorImg from '../assets/img/devconnector-project.jpg';
 
 import devCamperImg from '../assets/img/devcamper-project.jpg';
 
-import ecommerceImg from '../assets/img/ecommerce-project.jpg';
+import proshop from '../assets/img/proshop-project.jpg';
 
 import movieAppImg from '../assets/img/movieapp-project.jpg';
 
-import githubFinderImg from '../assets/img/github-project.jpg';
-
 import nodeChatAppImg from '../assets/img/chat-project.jpg';
+
+import covidAppImg from '../assets/img/covid-project.jpg';
 
 export {
   homePageImg,
   aboutPageImg,
   skillsPageImg,
   notFoundImg,
+  SpinnerImg,
   defaultProjectImg,
   devCamperImg,
   devConnectorImg,
   movieAppImg,
-  ecommerceImg,
-  githubFinderImg,
+  proshop,
   nodeChatAppImg,
+  covidAppImg,
 };

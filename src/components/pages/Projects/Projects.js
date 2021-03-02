@@ -6,11 +6,7 @@ import ProjectsLink from './ProjectsLink';
 import '../../styles/Projects/Projects.css';
 
 const Projects = () => (
-  <Animated
-    animationIn='fadeInUpBig'
-    animationOut='zoomOutDown'
-    animationInDelay={500}
-  >
+  <Animated animationIn='fadeIn' animationOut='fadeOut' animationInDelay={500}>
     <div className='projects-layout'>
       <div className='projects-layout mt4'>
         {projects.map((project) => (

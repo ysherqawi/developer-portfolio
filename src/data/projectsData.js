@@ -2,9 +2,9 @@ import {
   devCamperImg,
   nodeChatAppImg,
   devConnectorImg,
-  ecommerceImg,
+  proshop,
   movieAppImg,
-  githubFinderImg,
+  covidAppImg,
 } from '../assets/imgUrl';
 
 const projectsData = [
@@ -37,13 +37,13 @@ const projectsData = [
     github: 'https://github.com/ysherqawi/movie-app',
   },
   {
-    name: 'Ecommerce API',
-    type: 'Backend project',
-    tech: 'Nodejs, Express, Mongodb',
-    image: ecommerceImg,
-    description: 'Backend API for ecommerce application',
+    name: 'Proshop',
+    type: 'Fullstack project',
+    tech: 'Nodejs, Express, Mongodb, React, Redux',
+    image: proshop,
+    description: 'eCommerce platform built with the MERN stack',
     live: '',
-    github: 'https://github.com/ysherqawi/ecommerce-api',
+    github: 'https://github.com/ysherqawi/proshop',
   },
   {
     name: 'Chat App',
@@ -56,13 +56,14 @@ const projectsData = [
   },
 
   {
-    name: 'Github Finder',
+    name: 'Covid-19 Tracker',
     type: 'Frontend project',
-    tech: 'React, Hooks, Context,  Github API',
-    image: githubFinderImg,
-    description: 'Search and view github profiles using github API',
+    tech: 'React, Material UI, Chart.js, Covid-19 API',
+    image: covidAppImg,
+    description:
+      'Get the latest statistics globally and for a specific country',
     live: '',
-    github: 'https://github.com/ysherqawi/github-finder',
+    github: 'https://github.com/ysherqawi/covid19-tracker',
   },
 ];
 
