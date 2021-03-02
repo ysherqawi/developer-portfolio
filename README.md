@@ -1,17 +1,21 @@
-## Developer portfolio
+# Developer portfolio
 
 > A clean, beautiful and responsive portfolio template for Developers!
 
-## Motivation ⚡️
+## Screenshots 💻
 
-During master the coding interview data structures & algorithms course ([visit course page](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/))
-the instructor talked about the importance of having a website and the advantage that can give you when applying to jobs.
-Plus i always wanted to have a personal website 😃
+![screenhot](https://github.com/ysherqawi/developer-portfolio/blob/master/src/assets/screenshots/screenshot.jpeg)
+
+## Performance Test ⚡️
+
+![screenhot](https://github.com/ysherqawi/developer-portfolio/blob/master/src/assets/screenshots/test.jpeg)
 
 ## Sections
 
 ✔️ About me
+
 ✔️ Skills
+
 ✔️ Projects with Github Link
 
 ## Live Preview 🚀
