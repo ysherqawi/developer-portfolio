@@ -9,6 +9,39 @@
 .landing-img {
   margin-top: -20px;
   margin-bottom: -25px;
+  width: 100%;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media (max-width: 1024px) {
@@ -22,29 +55,15 @@
     font-size: 2.8rem !important;
     margin-top: 50px !important;
   }
-  .landing-img {
-    width: 550px;
-    height: 375px;
-  }
 }
 
 @media (max-width: 500px) {
   .header-text {
     font-size: 1.7rem !important;
   }
-
-  .landing-img {
-    width: 350px;
-    height: 300px;
-  }
 }
 @media (max-width: 320px) {
   .header-text {
     font-size: 1.5rem !important;
-  }
-
-  .landing-img {
-    width: 280px;
-    height: 290px;
   }
 }
