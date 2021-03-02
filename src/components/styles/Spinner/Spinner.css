@@ -1,0 +1,18 @@
+.spinner-layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-img {
+  width: 10%;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .spinner-img {
+    width: 25%;
+  }
+}
