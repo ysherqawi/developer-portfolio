@@ -5,11 +5,7 @@ import postman from '../../../assets/postman.svg';
 import '../../styles/Skills/Skills.css';
 
 const OtherSkills = () => (
-  <Animated
-    animationIn='fadeInRightBig'
-    animationOut='zoomOutDown'
-    animationInDelay={500}
-  >
+  <Animated animationIn='fadeIn' animationOut='fadeOut' animationInDelay={500}>
     <article className='skills-card mw5 mh2 grow bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
       <div className='tc'>
         <h3>

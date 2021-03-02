@@ -9,8 +9,8 @@
   background-image: url('../../../assets/img/skills.gif');
   background-size: cover;
   background-position: center;
-  height: 175px;
-  width: 450px;
+  height: 174px !important;
+  width: 450px !important;
 }
 
 .skills-card {
@@ -23,7 +23,8 @@
   width: 25px;
   height: 25px;
 }
-cursor {
+
+.cursor {
   cursor: pointer;
 }
 

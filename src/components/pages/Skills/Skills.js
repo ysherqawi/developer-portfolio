@@ -9,11 +9,11 @@ const Skills = () => {
   return (
     <div className='pt2 mt2'>
       <Animated
-        animationIn='fadeInDownBig'
-        animationOut='zoomOutDown'
+        animationIn='fadeIn'
+        animationOut='fadeOut'
         animationInDelay={500}
       >
-        <article className='bg-white br3 mt3-ns center w-80 skills-img'></article>
+        <article className='bg-white br3 mt3-ns center skills-img'></article>
       </Animated>
 
       <div className='skills-layout'>
