@@ -5,8 +5,8 @@ import { aboutPageImg } from '../../../assets/imgUrl';
 const AboutImg = () => {
   return (
     <Animated
-      animationIn='fadeInLeftBig'
-      animationOut='zoomOutDown'
+      animationIn='fadeIn'
+      animationOut='fadeOut'
       animationInDelay={500}
     >
       <div className='aboutImg-layout'>
@@ -23,7 +23,7 @@ const AboutImg = () => {
           <div className='tc'>
             <a
               className='link dim black h2 w2 mr2'
-              href='https://linkedin.com/in/yassersherqawi'
+              href='https://linkedin.com/in/ysherqawi'
               target='_blank'
               rel='noopener noreferrer'
             >
