@@ -22,7 +22,7 @@ import movieAppImg from '../assets/img/movieapp-project.jpg';
 
 import nodeChatAppImg from '../assets/img/chat-project.jpg';
 
-import covidAppImg from '../assets/img/covid-project.jpg';
+import donewithitImg from '../assets/img/donewithit-project.jpg';
 
 export {
   homePageImg,
@@ -36,5 +36,5 @@ export {
   movieAppImg,
   proshop,
   nodeChatAppImg,
-  covidAppImg,
+  donewithitImg,
 };

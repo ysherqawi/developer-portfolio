@@ -4,7 +4,7 @@ import { defaultProjectImg } from './../../../assets/imgUrl';
 import '../../styles/Projects/Projects.css';
 
 const ProjectItem = ({ project }) => (
-  <div className='card br2 ba dark-gray b--black-10 mv4 w-100 center grow'>
+  <article className='card br3 ba dark-gray b--black-10 mv4 w-100 center grow'>
     {!project.image ? (
       <img
         src={defaultProjectImg}
@@ -52,7 +52,7 @@ const ProjectItem = ({ project }) => (
         Github <i className='fab fa-github ' />
       </a>
     </div>
-  </div>
+  </article>
 );
 
 ProjectItem.propTypes = {

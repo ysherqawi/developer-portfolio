@@ -4,7 +4,7 @@ import {
   devConnectorImg,
   proshop,
   movieAppImg,
-  covidAppImg,
+  donewithitImg,
 } from '../assets/imgUrl';
 
 const projectsData = [
@@ -56,14 +56,13 @@ const projectsData = [
   },
 
   {
-    name: 'Covid-19 Tracker',
+    name: 'DoneWithIt',
     type: 'Frontend project',
-    tech: 'React, Material UI, Chart.js, Covid-19 API',
-    image: covidAppImg,
-    description:
-      'Get the latest statistics globally and for a specific country',
+    tech: 'React Native',
+    image: donewithitImg,
+    description: "A marketplace for the stuff you don't need anymore",
     live: '',
-    github: 'https://github.com/ysherqawi/covid19-tracker',
+    github: 'https://github.com/ysherqawi/donewithit',
   },
 ];
 
