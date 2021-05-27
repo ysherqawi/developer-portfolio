@@ -14,9 +14,13 @@
 }
 
 .skills-card {
-  min-height: 295px;
+  min-height: 325px;
   min-width: 250px;
   margin-bottom: 0;
+}
+
+.skills-card:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 .skills-icon {
@@ -31,6 +35,12 @@
 .postman-icon {
   width: 15px;
   height: 15px;
+}
+
+.hover-orange:focus,
+.hover-orange:hover {
+  color: #ff6300;
+  fill: #ff6300;
 }
 
 @media (max-width: 768px) {

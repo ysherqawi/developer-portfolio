@@ -33,9 +33,11 @@ const FrontSkills = () => (
         <span className='f5 db black link hover-purple pv1'>
           <i className='fab fa-bootstrap' /> Bootstrap
         </span>
-
         <span className='f5 db black link hover-blue pv1'>
           <i className='fab fa-react' /> React.js
+        </span>
+        <span className='f5 db black link hover-light-blue pv1'>
+          <i className='fab fa-react' /> React Native
         </span>
       </div>
     </article>
