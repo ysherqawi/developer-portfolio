@@ -13,10 +13,9 @@ const AboutStory = () => {
         <div>
           <h2>About Me</h2>
           <p>
-            Hey, my name is Yasser Sherqawi. I am a developer, currently
-            pursuing my master's degree majoring in web sciences. I am
-            passionate about web development, creating effective solutions, and
-            learning every day to grow professionally in the IT field.
+             Hi, I'm Yasser Sherqawi. I'm an enthusiastic, motivated developer. seeking to apply and expand my knowledge
+             and skills towards working in a collaborative environment. where I can make a contribution, 
+             and learning every day to grow professionally in the IT field.
           </p>
 
           <p>
