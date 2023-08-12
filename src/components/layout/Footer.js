@@ -7,8 +7,7 @@ const Footer = () => (
   <footer className='footer-layout pt2 ph3 ph5-ns mt2 tc'>
     <small className='f5 db mb1 tc'>
       {' '}
-      Happy {getToday()}! Wear a <i class='fas fa-head-side-mask' />. Save
-      Lives.
+      Happy {getToday()}
     </small>
 
     <img src={FooterLogo} alt='logo' className='footer-logo' />
