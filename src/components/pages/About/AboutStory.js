@@ -13,19 +13,10 @@ const AboutStory = () => {
         <div>
           <h2>About Me</h2>
           <p>
-             Hi, I'm Yasser Sherqawi. I'm an enthusiastic, motivated developer. seeking to apply and expand my knowledge
-             and skills towards working in a collaborative environment. where I can make a contribution, 
-             and learning every day to grow professionally in the IT field.
-          </p>
-
-          <p>
-            When I'm not coding, you'll find me playing video games , watching
-            football, listening to music or watching movies.
-          </p>
-
-          <p>
-            I am available for any kind of job opportunity that suits my
-            interests. Feel free to contact me at any time.
+            A curious learner and result-oriented individual interested in the role of a software developer,
+            where I can expand and apply the skills and knowledge acquired through continuous personal
+            development to design and create quality software solutions that contribute towards achieving the
+            company’s vision and goals.
           </p>
         </div>
         <div>
@@ -42,7 +33,7 @@ const AboutStory = () => {
         </div>
         <a
           className='f6 link dim grow no-underline br-pill ph3 pv2 mb2 mt2 dib white bg-dark-gray'
-          href='https://drive.google.com/file/d/1ykxib2N823yw1oJzpBtbRTrvFez_IZW5/view?usp=sharing'
+          href=''
           target='_blank'
           rel='noopener noreferrer'
         >
