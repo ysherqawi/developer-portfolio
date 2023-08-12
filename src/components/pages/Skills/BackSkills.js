@@ -22,11 +22,17 @@ const BackSkills = () => (
         <span className='f5 db black link hover-gray pv1'>
           <i className='fab fa-node-js' /> Express.js
         </span>
+        <span className='f5 db black link hover-gray pv1'>
+          <i className='fab fa-node-js' /> Nest.js
+        </span>
         <span className='f5 db black link hover-green pv1'>
           <i class='fab fa-envira' /> MongoDB
         </span>
         <span className='f5 db black link hover-dark-red pv1'>
           <i class='fas fa-database' /> Mongoose
+        </span>
+        <span className='f5 db black link hover-dark-blue pv1'>
+          <i class='fas fa-database' /> PostgreSQL
         </span>
         <span className='f5 db black link hover-dark-blue pv1'>
           <i class='fas fa-database' /> MySQL
